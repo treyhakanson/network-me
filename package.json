@@ -4,10 +4,15 @@
   "description": "A simple api for the network-me app, which is to help you keep track of your important contacts",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Trey Hakanson",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/treyhakanson/network-me"
+  },
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
