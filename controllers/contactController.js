@@ -51,7 +51,7 @@ module.exports = function(app) {
 	});
 
 	app.delete('/api/contact', function(req, res) {
-		Contact.findByIdAndRemove(req.body.id, function(err) {
+		Contact.findByIdAndRemove(req.body.contactObjectId, function(err) {
 			if (err) throw err;
 			else 		res.send('successfully deleted');
 		})
