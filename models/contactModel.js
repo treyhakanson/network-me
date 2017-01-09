@@ -1,13 +1,12 @@
 const mongoose = require('mongoose');
 
 const contacSchema = new mongoose.Schema({
-	name: String,
+	name: 			String,
 	groupObjectId: String,
-	maintenance: Number,
-	status: Number,
-	email: String,
-	phone: String,
-	notes: String,
+	maintenance: 	Number,
+	email: 			String,
+	phone: 			String,
+	notes: 			String,
 	lastContacted: Date
 });
 

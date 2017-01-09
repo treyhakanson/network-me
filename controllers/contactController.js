@@ -24,7 +24,6 @@ module.exports = function(app) {
 			if (req.body.name) 				contactData.name = req.body.name;
 			if (req.body.groupObjectId) 	contactData.groupObjectId = req.body.groupObjectId;
 			if (req.body.maintenance) 		contactData.maintenance = req.body.maintenance;
-			if (req.body.status) 			contactData.status = req.body.status;
 			if (req.body.email) 				contactData.email = req.body.email;
 			if (req.body.phone) 				contactData.phone = req.body.phone;
 			if (req.body.notes) 				contactData.notes = req.body.notes;
@@ -39,7 +38,6 @@ module.exports = function(app) {
 				name: 			req.body.name,
 				groupObjectId: req.body.groupObjectId,
 				maintenance: 	req.body.maintenance,
-				status: 			req.body.status,
 				email: 			req.body.email,
 				phone: 			req.body.phone,
 				notes: 			req.body.notes,
