@@ -5,9 +5,9 @@ module.exports = function(app) {
 
 	app.use(bodyParser.json());
 
-	app.get('/api/contact/:contactId?', function(req, res) {
-		if (req.params.contactId) // get a specific contact if desired
-			Contact.findById(req.params.contactId, function(err, contact) {
+	app.get('/api/contact/:groupObjectId?', function(req, res) {
+		if (req.params.groupObjectId) // get a specific contact if desired
+			Contact.find({ groupObjectId: req.params.groupObjectId }, function(err, contact) {
 				if (err) throw err;
 				else 		res.send(contact);
 			});

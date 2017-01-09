@@ -6,8 +6,8 @@ The base url is:
 `https://boiling-sands-47092.herokuapp.com/`
 
 ### Contact API
-GET `/api/contact/:contactObjectId?`
-	- `contactObjectId`: optional param to get a specific contact; if not specified, will return all contacts
+GET `/api/contact/:groupObjectId?`
+	- `groupObjectId`: optional param to the contacts associated with a specific group
 
 POST `/api/contact` 
 - `contactObjectId`: optional body param; if specified, instead of creating a new contact, will find the contact with this id and update it (*NOTE:* when updating, only the keys being updated need to be specified)
