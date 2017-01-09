@@ -1,0 +1,69 @@
+@import 'base/variables';
+
+.top-bar {
+	padding: 0.5rem 0rem;
+	overflow: auto;
+	width: 79%;
+	margin-left: 21%;
+	background-color: $primary-color-dark;
+}
+.search-bar-cont {
+	float: left;
+	padding: 0.2rem;
+	height: 30px;
+	box-sizing: border-box;
+	display: table;
+	width: 60%;
+	background-color: rgba($primary-color-text, 0.15);
+	img {
+		display: table-cell;
+		vertical-align: middle;
+		height: 100%;
+		padding-left: 0.5rem;
+
+	}
+	form {
+		display: table-cell;
+		vertical-align: middle;
+
+	}
+}
+.search-bar-cont:hover {
+	background-color: rgba($primary-color-text, 0.3);
+	cursor: pointer;
+}
+
+
+.search-bar-input {
+	font-size: 1.3rem;
+	background-color: transparent;
+	color: white;
+	border-style: none;
+	input-style: none;
+	padding-left: 0.5rem;
+}
+
+.add-contact-btn {
+	float: right;
+	padding: 0.2rem;
+	box-sizing: border-box;
+	height: 30px;
+	margin-right: 3rem;
+	display: table;
+	border-style: none;
+	background-color: $accent-color;
+	 img {
+	 	height: 100%;
+		display: table-cell;
+		vertical-align: middle;
+	 }
+	 p {
+	 	color: $primary-color-text;
+	 	padding-left: 0.2rem;
+	 	display: table-cell;
+		vertical-align: middle;
+	 }
+}
+.add-contact-btn:hover {
+	cursor: pointer;
+}

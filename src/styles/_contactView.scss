@@ -1,0 +1,88 @@
+@import "base/variables";
+
+.contact-view-wrapper {
+	margin: 2rem 2rem 0 21%;
+
+	table {
+		width: 100%;
+	}
+	tbody {
+		width: 100%;
+	}
+
+}
+
+.contact-card {
+	margin: 2rem;
+	margin-right: 0;
+	height: 7rem;
+	border-bottom: 5px solid $primary-color;
+	box-shadow: 0px 4px 8px 0 rgba(#212121, 0.25), 0 6px 20px 0 rgba(#212121, 0.25);
+}
+
+.contact-top-content {
+	display: table;
+	padding: 0.5rem;
+	p {
+		padding-left: 0.5rem;
+		display: table-cell;
+		vertical-align: middle;
+		font-size: 1rem;
+		color: $primary-text-color;
+	}
+
+
+}
+.contact-bottom-content {
+	margin-top: 0.5rem;
+	float: bottom;
+	p {
+		padding-left: 0.5rem;
+		font-size: 0.75rem;
+		color: $secondary-text-color;
+	}
+}
+.attention-bubble {
+	background-color: green;
+	width: 2rem;
+	height: 2rem;
+	display: table-cell;
+	vertical-align: middle;
+	border-radius: 50%;
+}
+
+.contact-middle-content {
+	overflow: auto;
+}
+
+.card-btn {
+	margin-right: 0.5rem;
+	float: right;
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+}.card-btn:hover {
+	cursor: pointer;
+	
+}
+.contact-email-btn {
+	background-repeat: no-repeaet;
+	background-position: center;
+	background-image: url('https://s3.amazonaws.com/networking-tool/contact-email.svg');
+}
+.contact-phone-btn {
+	background-repeat: no-repeaet;
+	background-position: center;
+	background-image: url('https://s3.amazonaws.com/networking-tool/contact-phone.svg');
+	
+}.contact-delete-btn {
+	background-repeat: no-repeaet;
+	background-position: center;
+	background-image: url('https://s3.amazonaws.com/networking-tool/contact-delete.svg');
+	
+}
+.contact-notes-btn {
+	background-repeat: no-repeaet;
+	background-position: center;
+	background-image: url('https://s3.amazonaws.com/networking-tool/contact-notes.svg');
+}
